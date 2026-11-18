@@ -229,7 +229,7 @@ figcaption { color: var(--muted); margin-top: .5rem; font-size: .75rem; }
 
 /* Leave room below the lowered photo on landscape phones. */
 @media (min-width: 681px) and (max-width: 1024px) and (max-height: 500px) and (orientation: landscape) {
-  .features { padding-block-end: 4rem; }
+  .features { padding-block-end: 5rem; }
   .features-image { translate: 0 3rem; }
 }
 
