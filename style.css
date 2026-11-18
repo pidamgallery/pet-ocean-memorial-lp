@@ -100,7 +100,9 @@ nav { display: flex; align-items: center; gap: clamp(.9rem, 2.2vw, 2rem); }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .hero-memories, .hero-motion { display: none; }
+  .hero-memories { display: flex; align-items: center; justify-content: center; gap: .6rem; }
+  .hero-image .hero-memory { width: min(38%, 220px); opacity: 1; }
+  .hero-motion { display: none; }
 }
 
 @keyframes hero-memory-fade {
